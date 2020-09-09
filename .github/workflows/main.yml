@@ -9,6 +9,6 @@ jobs:
       id: hello
       uses: phantomnat/hello-world-docker-action@v1
       with:
-        who-to-green: 'Leonardo da Vinci'
+        who-to-greet: 'Leonardo da Vinci'
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
